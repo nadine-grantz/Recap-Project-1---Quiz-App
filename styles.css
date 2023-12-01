@@ -5,10 +5,11 @@
 h1{
     color: darkgreen;
     background-color:lightblue;
-    margin: 0;
+    margin-top: 0;
     height: 10%;
     border-radius: 0 0 5% 5%;
     text-align: center;
+    
 }
 
 body {
@@ -20,10 +21,18 @@ section{
     border: 5px solid black;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 div {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.card__bookmark {
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    font-size: 27px;
 }
