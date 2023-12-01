@@ -22,6 +22,7 @@ section{
     display: flex;
     flex-direction: column;
     position: relative;
+    align-items: center;
 }
 
 div {
@@ -34,5 +35,35 @@ div {
     position: absolute;
     top: 10%;
     right: 3%;
-    font-size: 27px;
+    font-size: 27px; 
+}
+
+.card__bookmark:hover{
+    background-color: red;
+    border-radius: 50%;
+    height: 27px;
+    width: 27px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: ;
+}
+
+
+.navigation{
+    background-color:blue;
+    color: #ffffff;
+    padding: 5px 14px;
+    border-radius: 5px; 
+    
+}
+
+.Beispiel{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+   
 }
