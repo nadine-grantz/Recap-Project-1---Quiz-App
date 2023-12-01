@@ -14,6 +14,7 @@ h1{
 
 body {
     margin:0;
+    background-image: url(https://i.pinimg.com/originals/db/34/d4/db34d40b271fb59477621550bf73ea0b.jpg);
 
 }
 
@@ -53,17 +54,20 @@ nav{
 
 
 .navigation{
-    background-color:blue;
+    background-color:black;
     color: #ffffff;
     padding: 5px 14px;
     border-radius: 5px; 
     
 }
 
-.Beispiel{
+.Bauchbinde{
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     gap: 5%;
-   
+}
+
+p{
+    background-color: white;
 }
