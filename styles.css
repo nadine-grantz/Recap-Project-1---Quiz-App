@@ -15,7 +15,6 @@ h1{
 body {
     margin:0;
     background-image: url(https://i.pinimg.com/originals/db/34/d4/db34d40b271fb59477621550bf73ea0b.jpg);
-
 }
 
 section{
@@ -47,9 +46,8 @@ div {
 }
 
 nav{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: ;
+    width: 100%;
+    
 }
 
 
@@ -68,6 +66,19 @@ nav{
     gap: 5%;
 }
 
+.Copyright{
+    background: none;
+}
+
 p{
     background-color: white;
 }
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    ;
+}
+
